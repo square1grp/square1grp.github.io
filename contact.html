@@ -46,7 +46,7 @@
                             <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="portfolios.html">Portfolios</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-							<li class="nav-item"><a class="nav-link" href="resume.pdf" target="__blank">Resume</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.pdf" target="__blank">Resume</a></li>
                         </ul>
                     </div>
                 </div>
@@ -76,8 +76,11 @@
     <!--================Contact Area =================-->
     <section class="contact_area p_120">
         <div class="container">
-            <div id="mapBox" class="mapBox" data-lat="34.0707237" data-lon="-118.2726178" data-zoom="16"
-                data-mlat="34.0707237" data-mlon="-118.2726178"></div>
+            <!-- <div id="mapBox" class="mapBox" data-lat="34.0707237" data-lon="-118.2726178" data-zoom="16"
+                data-mlat="34.0707237" data-mlon="-118.2726178"></div> -->
+            <iframe class="mapBox"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.9462801273385!2d-118.27024068441709!3d34.07089132419379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c70e381701e7%3A0xc4373cc40856d83a!2sSquare%201%20Group!5e0!3m2!1sen!2sus!4v1608192831934!5m2!1sen!2sus"
+                width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <div class="row">
                 <div class="col-lg-3">
                     <div class="contact_info">
@@ -134,9 +137,8 @@
                             </div>
                         </div>
                         <div class="col-md-12 text-right">
-                            <h3 id="contact_form_status" class="text-center my-3"></h3>
-                            <button type="submit" value="submit" id="contact_form_submit"
-                                class="btn submit_btn w-100">Send Message</button>
+                            <button type="submit" value="submit" id="contact_form_submit" class="btn submit_btn">Send
+                                Message</button>
                         </div>
                     </form>
 
@@ -163,7 +165,8 @@
                     <p class="text-center mb-0 copy-right">
                         <small>© Square 1 Group All Rights Reserved. |
                             <a href="#">Privacy Policy</a> |
-                            <a href="#">Terms of Use</a></small></p>
+                            <a href="#">Terms of Use</a></small>
+                    </p>
                 </div>
             </div>
         </div>
@@ -223,16 +226,16 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/contact.js"></script>
     <!--gmaps Js-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-    <script src="js/gmaps.min.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script> -->
+    <!-- <script src="js/gmaps.min.js"></script> -->
     <script src="js/theme.js"></script>
 
-	<!-- Calendly badge widget begin -->
-	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-	<script
-		type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/sq1grpdev/30min', text: 'Schedule time with me', color: '#766dff', textColor: '#ffffff', branding: true });</script>
-	<!-- Calendly badge widget end -->
+    <!-- Calendly badge widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+    <script
+        type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/sq1grpdev/30min', text: 'Schedule time with me', color: '#766dff', textColor: '#ffffff', branding: true });</script>
+    <!-- Calendly badge widget end -->
 </body>
 
 </html>

@@ -92,7 +92,7 @@
     /*  Google map js
     /*----------------------------------------------------*/
     
-    if ( $('#mapBox').length ){
+    /* if ( $('#mapBox').length ){
         var $lat = $('#mapBox').data('lat');
         var $lon = $('#mapBox').data('lon');
         var $zoom = $('#mapBox').data('zoom');
@@ -297,6 +297,6 @@
                 }
             ]
         });
-    }
+    } */
 
 })(jQuery)
